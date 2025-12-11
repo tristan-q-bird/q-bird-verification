@@ -16,7 +16,9 @@ This repo is intended to be run on some flavour of Linux or Unix.
 
 * Install GHDL (an open source VHDL simulator) via whatever method you like (see https://ghdl.github.io/ghdl/getting.html or https://github.com/ghdl/ghdl?tab=readme-ov-file#getting-ghdl)
 * Be careful when installing GHDL from package managers: you can get quite stale versions which could have missing features
-* This guide was written and tested using GHDL version v5.1.1 installed via `brew install ghdl`
+* This guide was written and tested using GHDL version v5.1.1:
+  * Mac OS: installed via `brew install ghdl`
+  * Linux: your package manager may have an outdated version of GHDL. If so, you may want to install it manually from the `tar` file (https://github.com/ghdl/ghdl/releases/tag/v5.1.1). To do so, extract the `tar.gz` file and copy all files to `/usr/local/` (i.e. `sudo cp -r ghdl-x.y.x /usr/local/`).
 
 ### Install a wave viewer
 
